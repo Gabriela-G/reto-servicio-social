@@ -1,0 +1,197 @@
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+
+/*Encabezado*/
+
+#header{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: white;
+}
+
+#header .container{
+    margin:0;
+    padding: 0;
+    color: #262626;
+    font-family: "Segoe UI";
+    font-size: 12px; 
+    padding: 0;
+}
+
+#header a:hover{
+    text-decoration: underline;
+}
+
+/*Carrusel*/
+.carrusel{
+    margin-top:15px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*menu2*/
+.menu2{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 48px;
+}
+
+.menu2 a{
+    background-color: aquamarine;
+    color:black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.menu2 a:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+
+
+/*Pie de página */
+#footer {
+    background: #F2F2F2;
+    color: #616161;
+    font-family: "Segoe UI";
+}
+#footer a{
+    text-decoration: none;
+    color: #616161;
+    font-family: "Segoe UI";
+    font-size: 11px; 
+    padding: 0;
+}
+#footer a:hover{
+    color:black;
+    text-decoration: underline;
+}
+.piePagina{
+    padding-left:3%;
+    padding-top:3%;
+    padding-top: 0%;
+    padding-bottom:0% ;
+}
+#footer h2{
+    font-size: 15px; 
+}
+#footer ul{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0%;
+    margin-left: 0%;
+}
+li{
+    padding-top: 8px;
+}
+.listaFinal li{
+    font-size: 11px;
+    display:inline;
+    padding:0px 24px 4px 0px ;
+}
+
+.listaFinal{
+    padding-top: 30px;
+}
+
+/*Menu 3*/
+
+.menu3{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 48px;
+}
+.badges{
+    color:black;
+}
+
+/*onedrive*/
+.onedrive{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 48px;
+}
+
+.onedrive img{
+    width:100%;
+    height: fit-content;
+}
+
+.onedrive{
+    position: relative;
+}
+.onedrive .overlay {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+    color:black;
+}
+
+.onedrive .overlay .container,
+.onedrive .overlay .row {
+  height: 100%;
+}
+
+/*menu4*/
+.menu4{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 48px;
+}
+
+/*covid*/
+.covid{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #F2F2F2;
+    text-align: center;
+}
+.covid h3{
+    font-size: 34px;
+}
+
+.covid p{
+    font-size: 15px;
+}
+.covid .btn{
+    color: black;
+    text-decoration: none;
+}
+
+.covid .btn:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/*redes*/
+
+.redes{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display:inline-flex;
+}
+.redes .link{
+    margin-left: 15px;
+}
+
+.redes img{
+    width: 28px;
+}
+
+
